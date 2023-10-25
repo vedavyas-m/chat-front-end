@@ -45,7 +45,7 @@ function Signup() {
           <Input
             type={show ? "text" : "password"}
             placeholder="Enter Password"
-            onChange={(e) => setEmail(e.target.value)}
+            onChange={(e) => setPassword(e.target.value)}
           />
           <InputRightElement width="4.5rem">
             <Button h="1.75rem" size="sm" onClick={handleShowPassword}>
